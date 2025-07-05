@@ -20,11 +20,26 @@ h2 {
 
 .info-section {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 40px 10%;
+    padding: 40px 5%;
     gap: 20px;
     background-color: #fbfaf8;
 
 
+}
+
+.info-box {
+  flex: 1 1 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.info-box button {
+
+    background-color:  #a5be94;
+    padding: 10px;
+    border: 2px solid #34562d;
+    border-radius: 6px;
 }
