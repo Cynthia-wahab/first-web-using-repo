@@ -16,5 +16,15 @@ h2 {
     text-align: center;
     color:#2e5e2e;
     font-size: 35px;
-    
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 10%;
+    gap: 20px;
+    background-color: #fbfaf8;
+
+
 }
