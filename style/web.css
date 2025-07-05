@@ -1,11 +1,20 @@
 .banner {
-    background-image: url(../images/coverformy-web.png);
+    background-image: url(../images/coverformy-web\ \(Banner\ Landscape\).png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 
 }
-
+h2 {
+    text-align: center;
+    color:#2e5e2e;
+    font-size: 35px;
     
+}
